@@ -1,9 +1,3 @@
-var table = $('#conciertos').DataTable( {
-		responsive: true,
-		pageLength : 5,
-		lengthMenu: [[5, 10, 20, -1], [5, 10, 20, 'Todos']]
-});
-
 // Inicialización y Event Listeners
 $(document).ready(function() {
 	// Creamos la variable: productos
