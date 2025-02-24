@@ -1,0 +1,11 @@
+.cart-container {
+	max-height: 80vh;
+	overflow-y: auto;
+}
+.product-image {
+	height: 200px;
+	object-fit: cover;
+}
+.quantity-input {
+	width: 80px;
+}
