@@ -106,7 +106,7 @@ class ShoppingCart {
 							<td>$${total.subtotal.toFixed(2)}</td>
 						</tr>
 						<tr>
-							<td colspan="3" class="text-end"><strong>IVA (19%):</strong></td>
+							<td colspan="3" class="text-end"><strong>IVA (13%):</strong></td>
 							<td>$${total.tax.toFixed(2)}</td>
 						</tr>
 						<tr>
