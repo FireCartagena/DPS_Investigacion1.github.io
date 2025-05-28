@@ -1,0 +1,11 @@
+# Archivo para la configuracion de la ejecucion y que App Engine sepa como desplegar la aplicacion
+
+runtime: python37 # Un runtime es necesario, python37 es ligero y común para estáticos.
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /(.*)
+  static_files: \1
+  upload: (.*)
